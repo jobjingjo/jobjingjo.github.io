@@ -19,6 +19,7 @@ self.addEventListener('install', function(event) {
         return cache.addAll([
           '/',
           '/index.html',
+          '/offline.html',
           '/images/icons-192.png',
           '/images/icons-512.png',
           '/sw.js'
