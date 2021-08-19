@@ -13,7 +13,7 @@ function createPost(title, time, content) {
   
     h2.textContent = title;
     small.textContent = time;
-    p.textContent = content;
+    p.innerHTML = content;
   
     div.appendChild(h2);
     div.appendChild(small);
