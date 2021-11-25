@@ -14,4 +14,4 @@ module.exports = {
         token: 'LHCI_TOKEN', // could also use LHCI_TOKEN variable instead
       },
     },
-  };
+};
